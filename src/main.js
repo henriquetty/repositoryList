@@ -72,7 +72,7 @@ class App {
             let link = window.document.createElement('a');
             link.setAttribute('target', '_blank');
             link.setAttribute('href', repo.html_url)
-            link.appendChild(document.createTextNode('Acessar'));
+            link.appendChild(document.createTextNode('Open'));
 
             let list = window.document.createElement('li');
             list.appendChild(img);
